@@ -173,11 +173,11 @@ html {
     font-size: 15px;
 }
 
-.section-study, .section-voice, .section-coach {
-    padding: 40px;
+.section-study, .section-voice, .section-coach, .section-big {
+    padding: 60px;
 }
 
-.section-voice {
+.section-voice, .section-big {
     background-color: #F6F6F6;
 }
 
@@ -187,9 +187,51 @@ html {
 
 /* MAIN fifth Section */
 
-.col-big {
+/* .col-big {
     flex-basis: 100%;
-    min-height: 600px;
+    min-height: 900px;
+} */
+
+.section-title-big {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.section-paragraph-big {
+    padding: 20px 90px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.section-title-big, .section-paragraph-big {
+    text-align: center;
+}
+
+.col-big img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.btn-CTA {
+    background-color: #8FA0E1;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 8px 20px;
+    border-radius: 30px;
+}
+
+.title-CTA {
+    padding-bottom: 20px;
+}
+
+.container-CTA {
+    padding: 15px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    width: 400px;
+    margin: auto;
 }
 
 
@@ -213,7 +255,7 @@ html {
 }
 
 .row-footer-2 {
-    min-height: 50px;
+    /* min-height: 50px; */
 }
 
 .col-footer {
