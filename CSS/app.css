@@ -164,7 +164,7 @@ html {
 
 .section-title {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 .section-paragraph {
@@ -173,7 +173,7 @@ html {
     font-size: 15px;
 }
 
-.section-study, .section-voice {
+.section-study, .section-voice, .section-coach {
     padding: 40px;
 }
 
