@@ -144,6 +144,34 @@ html {
     border-radius: 30px;
 }
 
+/* .wave-grey {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-image: url(../img/wave.svg);
+    background-color: #F6F6F6;
+} */
+
+.wave-grey {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.wave-grey-rotate {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    transform: rotate(180deg);
+}
+
+
 
 
 /* MAIN second - third - fourth Section */
@@ -173,12 +201,25 @@ html {
     font-size: 15px;
 }
 
-.section-study, .section-voice, .section-coach, .section-big {
+.section-study, .section-voice, .section-big {
     padding: 60px;
 }
 
 .section-voice, .section-big {
     background-color: #F6F6F6;
+}
+
+.section-study {
+    position: relative;
+}
+
+.section-coach {
+    position: relative;
+    padding: 140px 60px;
+}
+
+.section-voice {
+    position: relative;
 }
 
 
@@ -327,7 +368,7 @@ html {
 
 /* DEBUG */
 
-/* .debug .logo, .debug .link, .debug .login, .debug .button {
+.debug .logo, .debug .link, .debug .login, .debug .button {
     border: 1px dotted black;
 }
 
@@ -396,7 +437,7 @@ html {
 .debug .bg-coral {
     color: white;
     background-color: coral;
-} */
+}
 
 
 
