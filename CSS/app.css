@@ -98,13 +98,13 @@ html {
 /* MAIN firt section */
 
 .col-10 {
-    min-height: 350px;
     flex-basis: calc((100% / 12) * 10)   
 }
 
 .hero {
     background-image: url(../img/jumbo.png);
     background-size: 100% 100%; 
+    min-height: 440px;
 }
 
 .hero-title {
@@ -146,34 +146,46 @@ html {
 
 
 
-
-
-
 /* MAIN second - third - fourth Section */
-
-.main-section-2, .main-section-4 {
-    padding: 30px;
-}
-
-.main-section-3 {
-    padding: 30px;
-}
 
 .col-4{
     flex-basis: calc((100% / 12) * 4);
-    min-height: 300px;
+    padding: 70px 25px;
 } 
 
 .col-8 {
     flex-basis: calc((100% / 12) * 8);
-    min-height: 350px;
+    padding: 50px 40px;
 }
+
+.col-8 img {
+    width: 100%;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.section-paragraph {
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.section-study, .section-voice {
+    padding: 40px;
+}
+
+.section-voice {
+    background-color: #F6F6F6;
+}
+
+
+
+
 
 /* MAIN fifth Section */
-
-.main-section-5 {
-    padding: 30px;
-}
 
 .col-big {
     flex-basis: 100%;
