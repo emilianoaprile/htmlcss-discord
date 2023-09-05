@@ -42,6 +42,7 @@
 .page-header {
     padding: 10px;
     min-height: 50px;
+    background-color: #275EE8;
 }
 
 .col-6 {
@@ -66,9 +67,18 @@
 /* MAIN firt section */
 
 .col-10 {
-    min-height: 250px;
+    min-height: 350px;
     flex-basis: calc((100% / 12) * 10)   
 }
+
+.hero {
+    background-image: url(../img/jumbo.png);
+    background-size: 100% 100%;
+    
+}
+
+
+
 
 
 /* MAIN second - third - fourth Section */
@@ -135,7 +145,7 @@
 
 /* DEBUG */
 
-.debug .logo, .debug .link, .debug .login, .debug .button {
+/* .debug .logo, .debug .link, .debug .login, .debug .button {
     border: 1px dotted black;
 }
 
@@ -204,7 +214,7 @@
 .debug .bg-coral {
     color: white;
     background-color: coral;
-}
+} */
 
 
 
