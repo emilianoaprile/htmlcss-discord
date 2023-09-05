@@ -187,11 +187,6 @@ html {
 
 /* MAIN fifth Section */
 
-/* .col-big {
-    flex-basis: 100%;
-    min-height: 900px;
-} */
-
 .section-title-big {
     font-size: 30px;
     font-weight: 900;
@@ -224,10 +219,12 @@ html {
 
 .title-CTA {
     padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .container-CTA {
-    padding: 15px;
+    padding: 3px;
     background-image: url(../img/stars.svg);
     background-size: contain;
     width: 400px;
@@ -238,29 +235,92 @@ html {
 
 /* FOOTER */
 
-.page-footer {
-    padding-top: 5px;
+.section-footer-1 {
+    border-bottom: 1px solid #7388DA;
 }
 
-.footer-section-1 {
-    padding-bottom: 25px;
+.page-footer {
+    background-color: #23272A;
 }
+
+.footer-title {
+    font-size: 25px;
+    color: #7388DA;
+    margin-bottom: 40px;
+}
+
+.flag {
+    width: 30px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.flag-nation {
+    padding-left: 20px;
+    color: white;
+}
+
 
 .col-2 {
     flex-basis: calc((100% / 12) * 2);
+    padding: 40px 25px;
 }
 
-.footer-section-2 {
-    padding-top: 15px;
-}
-
-.row-footer-2 {
-    /* min-height: 50px; */
+.col-4-footer {
+    flex-basis: calc((100% / 12) * 4);
+    padding: 40px 25px;
 }
 
 .col-footer {
     align-items: center;
 }
+
+.ul-title {
+    color: #7388DA;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.ul-title a {
+    color: white;
+    line-height: 30px;
+}
+
+.footer-section-1 .container {
+    border-bottom: 0.5px solid #7388DA;
+}
+
+#logo-footer img {
+    align-items: center;
+    padding-top: 10px;
+}
+
+.registrati a {
+    color: white;
+    background-color: #90A1E1;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 12px;
+    line-height: 3.3;
+    font-weight: 300;
+}
+
+.footer-section-2 {
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+/* SOCIAL ICON */
+
+.fa {
+    color: white;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+
+
+
 
 /* ----------------------------------------------------------- */
 
